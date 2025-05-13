@@ -60,7 +60,7 @@ class Planet(db.Model):
             "terrain": self.terrain,
             "population": self.population,
         }
-
+    
 class Favorite(db.Model):
     __tablename__ = 'favorite'
     id: Mapped[int] = mapped_column(primary_key=True)
